@@ -1,20 +1,22 @@
-## deploying a server with node:
+## Deploying a server with node:
 
 run npm install 
 
-## install mongoDB
-windows run mongo "C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe"
-mac os run mongod
+## Important
+
+* You have to Install mongoDB
 
 ## Endpoints
 
 * `/signup`
 Params:
+
 email
 password
 
 * `/signin`
 Params:
+
 email
 password
 
