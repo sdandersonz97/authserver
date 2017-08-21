@@ -18,7 +18,7 @@ Params:
 email
 password
 
-##Creating Protected Endpoint
+## Creating Protected Endpoint
 * You need to add requireAuth method 
 
 `app.get('/',requireAuth,function(req,res){
